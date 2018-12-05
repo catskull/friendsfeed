@@ -13,6 +13,12 @@
 	overflow: hidden;
 }
 
+.ff_story_review {
+	border-top: 1px solid #ddd;
+	padding: 8px;
+	color: #e74c3c;
+}
+
 /* Ads in photo ligthbox */
 ._5qrt {
 	/*background: red;*/
@@ -23,6 +29,39 @@
 
 .cardRightCol + #pagelet_friendsfeed {
 	padding-top: 12px;
+}
+
+#pagelet_friendsfeed {
+	padding-top: 12px !important;
+}
+
+#pagelet_firendsfeed ._4-u2 {
+	padding-top: 0 !important;
+}
+
+#pagelet_friendsfeed .uiHeader {
+	padding: 0 !important;
+}
+
+#pagelet_friendsfeed .ff_header {
+	display: -webkit-flex;
+	display: flex;
+}
+
+#pagelet_friendsfeed .ff_header_left {
+	flex: 1;
+}
+
+#pagelet_friendsfeed .ff_header .ff_header_title a {
+	font-size: 13px;
+	line-height: 13px;
+	font-weight: bold;
+	color: #90949c;
+	-webkit-font-smoothing: antialiased;
+}
+
+#pagelet_friendsfeed .uiHeader .rfloat {
+	margin-top: 2px;
 }
 
 #pagelet_rhc_footer {
